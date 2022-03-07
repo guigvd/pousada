@@ -129,7 +129,7 @@ span{
 }
 
 .block{
-    width: calc((100%/3) - 30px);
+    width: calc((100%/3) - 30px); 
     margin: 15px;
 
     display: flex;
@@ -165,7 +165,7 @@ span{
 .secao-sobre-itens{
     max-width: 1024px;
     width: 100%;
-    margin: 15px auto;
+    margin: 50px auto 15px auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -267,3 +267,85 @@ footer{
     font-size: 16px;
     color:white;
 }
+
+/******PÁGINA QUARTOS*****/
+
+.secao-fundo{
+    background-image: url(assets/img-fundo.jpg);
+    width: 100%;
+    height: 130px;
+
+    background-position-y: 9%;
+
+}
+
+/*******SECAO QUARTOS**************/
+
+.secao-quartos{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.secao-quartos-item{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    justify-content: center;   
+}
+
+.secao-quartos-img{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.secao-quartos-img-item{
+    width: calc((100%/3) - 10px);
+    margin: 48px 5px 10px 5px;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secao-quartos-img-item img{
+    width: 100%;
+}
+
+.secao-quartos-info{
+    text-align: center;
+
+    margin-top: 90px;
+    margin-bottom: 32px;
+}
+
+.secao-quartos-info-desc{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.cao-quartos-info-des-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+
+}
+
+/***************/
